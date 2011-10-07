@@ -1,0 +1,26 @@
+= A Sample of rails project using "c2dm_on_rails" gem
+
+== PREREQUISITES
+
+Use ruby 1.8.7. Recommend to use RVM(http://beginrescueend.com/).
+(Rails version is 2.3.10, but never mind, Bundler will take care.)
+
+== SETUP
+
+  (if you haven't install Bundler)
+  $ sudo gem install bundler
+  
+  $ git clone git@github.com:champierre/c2dm_on_rails_sample.git
+  $ cd c2dm_on_rails_sample
+  $ bundle install
+  $ ruby script/generate c2dm_migrations
+  $ rake db:migrate
+  
+== OTHER RESOURCES
+
+- https://github.com/pimeys/c2dm_on_rails
+- http://d.hatena.ne.jp/techmedia-think/20110211/1297393827
+
+== Copyright
+
+Copyright (c) 2011 Junya Ishihara. See LICENSE for details.

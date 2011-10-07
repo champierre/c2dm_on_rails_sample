@@ -1,0 +1,13 @@
+log/*.log
+log/*.pid
+tmp/**/*
+tmp/*
+db/*.sqlite3
+
+# Mac specific #
+################
+.DS_Store
+
+# TextMate #
+############
+*.tmproj

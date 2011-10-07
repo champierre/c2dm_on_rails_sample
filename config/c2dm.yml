@@ -1,0 +1,9 @@
+development:
+   username: your_user_name
+   password: password_for_the_account
+   app_name: your_applications_name
+       
+production:
+   username: your_user_name
+   password: password_for_the_account
+   app_name: your_applications_name
